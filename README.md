@@ -14,12 +14,11 @@ EI Algorithm innovation lab, Huawei Cloud
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/sam2mot-a-novel-paradigm-of-multi-object/multi-object-tracking-on-uavdt)](https://paperswithcode.com/sota/multi-object-tracking-on-uavdt?p=sam2mot-a-novel-paradigm-of-multi-object)
 
+This repository is the official implementation of SAM2MOT: A Novel Paradigm of Multi-Object Tracking by Segmentation
 
 https://github.com/user-attachments/assets/251346be-e664-44be-b89a-3f0970115dba
 
-
-This repository is the official implementation of SAM2MOT: A Novel Paradigm of Multi-Object Tracking by Segmentation
-
+![compare results](assets/demo-image.png)
 
 ## Abstract
 Segment Anything 2 (SAM2) enables robust single-object tracking using segmentation. To extend this to multi-object tracking (MOT), we propose SAM2MOT, introducing a novel Tracking by Segmentation paradigm. Unlike Tracking by Detection or Tracking by Query, SAM2MOT directly generates tracking boxes from segmentation masks, reducing reliance on detection accuracy. SAM2MOT has two key advantages: zero-shot generalization, allowing it to work across datasets without fine-tuning, and strong object association, inherited from SAM2. To further improve performance, we integrate a trajectory manager system for precise object addition and removal, and a cross-object interaction module to handle occlusions. Experiments on DanceTrack, UAVDT, and BDD100K show state-of-the-art results. Notably, SAM2MOT outperforms existing methods on DanceTrack by +2.1 HOTA and +4.5 IDF1, highlighting its effectiveness in MOT.
@@ -42,6 +41,7 @@ Segment Anything 2 (SAM2) enables robust single-object tracking using segmentati
 |co-dino-l       | 0.4      | 66.1 | 79.3 | 266320 | 74586  | 40692 | 136  | 816 | 147 |
 |grouding-dino-l | 0.5      | 51.0 | 71.7 | 236929 | 103977 | 62906 | 139  | 694 | 189 |
 |grouding-dino-l | 0.4      | 60.9 | 76.6 | 253903 | 87003  | 45932 | 155  | 767 | 171 |
+
 
 ## Acknowledgment
 
