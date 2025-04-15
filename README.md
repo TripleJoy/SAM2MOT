@@ -16,7 +16,7 @@ EI Algorithm innovation lab, Huawei Cloud
 
 
 [![python](https://img.shields.io/badge/python-3.10%2B-green)]()
-[![pytorch](https://img.shields.io/badge/pytorch-2.5%2B-orange)]()
+[![pytorch](https://img.shields.io/badge/pytorch-2.5.1%2B-orange)]()
 
 </div>
 
