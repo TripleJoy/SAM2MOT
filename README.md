@@ -70,13 +70,10 @@ Please consider citing our paper and the wonderful `SAM 2` if you found our work
   year={2024}
 }
 
-@misc{jiang2025sam2mot,
-  title={SAM2MOT: A Novel Paradigm of Multi-Object Tracking by Segmentation}, 
-  author={Junjie Jiang and Zelin Wang and Manqi Zhao and Yin Li and Dongsheng Jiang},
-  year={2025},
-  eprint={2504.04519},
-  archivePrefix={arXiv},
-  primaryClass={cs.CV},
-  url={https://arxiv.org/abs/2504.04519}, 
+@article{jiang2025sam2mot,
+  title={SAM2MOT: A Novel Paradigm of Multi-Object Tracking by Segmentation},
+  author={Jiang, Junjie and Wang, Zelin and Zhao, Manqi and Li, Yin and Jiang, DongSheng},
+  journal={arXiv preprint arXiv:2504.04519},
+  year={2025}
 }
 ```
