@@ -4,16 +4,12 @@
 
 Junjie Jiang, Zelin Wang, Manqi Zhao, Yin Li, Dongsheng Jiang
 
-EI Algorithm innovation lab, Huawei Cloud
+Intelligent Computing Algorithm Innovation Lab, Huawei Cloud
 
 *[arXiv 2504.04519](https://arxiv.org/abs/2504.04519)*
 </div>
 
 <div align="center">
-  
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/sam2mot-a-novel-paradigm-of-multi-object/multi-object-tracking-on-dancetrack)](https://paperswithcode.com/sota/multi-object-tracking-on-dancetrack?p=sam2mot-a-novel-paradigm-of-multi-object)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/sam2mot-a-novel-paradigm-of-multi-object/multi-object-tracking-on-uavdt)](https://paperswithcode.com/sota/multi-object-tracking-on-uavdt?p=sam2mot-a-novel-paradigm-of-multi-object)
-
 
 [![python](https://img.shields.io/badge/python-3.10%2B-green)]()
 [![pytorch](https://img.shields.io/badge/pytorch-2.5.1%2B-orange)]()
@@ -21,6 +17,14 @@ EI Algorithm innovation lab, Huawei Cloud
 </div>
 
 This repository is the official implementation of SAM2MOT: A Novel Paradigm of Multi-Object Tracking by Segmentation
+
+## News
+- [ ] **Incoming**: We will release our code soon. Stay tuned.
+- [ ] **Incoming**: We will publish an updated version of our paper on arxiv.
+- [x] **2025/11/08**: Our paper is accepted by AAAI 2026!
+- [x] **2025/04/06**: Release [paper](https://arxiv.org/abs/2504.04519)
+
+
 
 https://github.com/user-attachments/assets/251346be-e664-44be-b89a-3f0970115dba
 
@@ -32,11 +36,9 @@ https://github.com/user-attachments/assets/251346be-e664-44be-b89a-3f0970115dba
 </div>
 
 ## Abstract
-Segment Anything 2 (SAM2) enables robust single-object tracking using segmentation. To extend this to multi-object tracking (MOT), we propose SAM2MOT, introducing a novel Tracking by Segmentation paradigm. Unlike Tracking by Detection or Tracking by Query, SAM2MOT directly generates tracking boxes from segmentation masks, reducing reliance on detection accuracy. SAM2MOT has two key advantages: zero-shot generalization, allowing it to work across datasets without fine-tuning, and strong object association, inherited from SAM2. To further improve performance, we integrate a trajectory manager system for precise object addition and removal, and a cross-object interaction module to handle occlusions. Experiments on DanceTrack, UAVDT, and BDD100K show state-of-the-art results. Notably, SAM2MOT outperforms existing methods on DanceTrack by +2.1 HOTA and +4.5 IDF1, highlighting its effectiveness in MOT.
+Inspired by Segment Anything 2, which generalizes segmentation from images to videos, we propose SAM2MOT—a novel segmentation-driven paradigm for multi-object tracking that breaks away from the conventional detection-association framework. In contrast to previous approaches that treat segmentation as auxiliary information, SAM2MOT places it at the heart of the tracking process, systematically tackling challenges like false positives and occlusions. Its effectiveness has been thoroughly validated on major MOT benchmarks. Furthermore, SAM2MOT integrates pre-trained detector, pre-trained segmentor with tracking logic into a zero-shot MOT system that requires no fine-tuning. This significantly reduces dependence on labeled data and paves the way for transitioning MOT research from task-specific solutions to general-purpose systems. Experiments on DanceTrack, UAVDT, and BDD100K show state-of-the-art results. Notably, SAM2MOT outperforms existing methods on DanceTrack by +2.1 HOTA and +4.5 IDF1, highlighting its effectiveness in MOT.
 
-## News
-- [ ] **Incoming**: We will release our code in the future. Stay tuned.
-- [x] **2025/04/06**: Release [paper](https://arxiv.org/abs/2504.04519)
+
 
 ## Tracking performance
 ### Results on DanceTrack test set
